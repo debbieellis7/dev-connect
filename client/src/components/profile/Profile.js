@@ -20,6 +20,12 @@ class Profile extends Component {
     if (nextProps.profile.profile === null && this.props.profile.loading) {
       this.props.history.push('/not-found');
     }
+    // else if (
+    //   nextProps.profile.profile === null &&
+    //   !this.props.profile.loading
+    // ) {
+    //   this.props.history.push('/dashboard');
+    // }
   }
 
   render() {
